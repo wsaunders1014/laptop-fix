@@ -1,5 +1,8 @@
 # laptop-fix
 
+# 0.0.3
+Fixed missing Token HUD bug.
+
 # 0.0.2
 Fixed conflict with MythicUI module as reported by user.
 
