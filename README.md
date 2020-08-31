@@ -1,5 +1,8 @@
 # laptop-fix
 
+# 0.0.4
+No code changes, just fixed module so it auto-updates in Foundry.
+
 # 0.0.3
 Fixed missing Token HUD bug.
 
