@@ -4,6 +4,9 @@
     height: 100%;
     max-height: calc(100vh - 87px);
 }
+.mythicUI-fix .scroll{
+        max-height: calc(100vh - 127px);
+}
 .sheet {
     max-height: calc(100vh - 7px);
 }
@@ -13,8 +16,11 @@ form {
     overflow-y: auto;
 }
 section.filepicker-body {
-    height: 66vh;
+    max-height: 66vh;
     overflow-y: auto;
+}
+.mythicUI-fix section.filepicker-body{
+     max-height: 61vh;
 }
 .window-app .window-content {
 	    height: 100%;
