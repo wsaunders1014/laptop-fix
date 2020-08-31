@@ -1,0 +1,25 @@
+.scroll {
+	overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    max-height: calc(100vh - 87px);
+}
+.sheet {
+    max-height: calc(100vh - 7px);
+}
+form {
+    max-height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+section.filepicker-body {
+    height: 66vh;
+    overflow-y: auto;
+}
+.window-app .window-content {
+	    height: 100%;
+    max-height: calc(100% - 4px);
+}
+.filepicker .directory {
+	max-height: initial;
+}
