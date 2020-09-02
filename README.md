@@ -1,5 +1,8 @@
 # laptop-fix
 
+# 0.0.5
+Added some more fixes for conflicts from The Furnace, Tidy UI, and Mythic UI
+
 # 0.0.4
 No code changes, just fixed module so it auto-updates in Foundry.
 

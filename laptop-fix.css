@@ -5,7 +5,7 @@
     max-height: calc(100vh - 87px);
 }
 .mythicUI-fix .scroll{
-        max-height: calc(100vh - 127px);
+    max-height: calc(100vh - 127px);
 }
 .sheet {
     max-height: calc(100vh - 7px);
@@ -17,6 +17,7 @@
 }
 section.filepicker-body {
     max-height: 66vh;
+    overflow:hidden;
     overflow-y: auto;
 }
 .mythicUI-fix section.filepicker-body{
@@ -28,4 +29,17 @@ section.filepicker-body {
 }
 .filepicker .directory {
 	max-height: initial;
+}
+
+.window-app .window-content > * {
+    flex: initial;
+}
+.journal-sheet.window-app .window-content > * {
+    flex:1;
+}
+#module-management.mythicUI-fix {
+    max-height: calc(100vh - 7px);
+}
+#module-management.mythicUI-fix .package-list {
+    max-height: calc(100vh - 234px);
 }

@@ -21,3 +21,10 @@ Hooks.on('renderFilePicker',(object,html)=>{
 		}
 	}
 })
+Hooks.on('renderModuleManagement', (object,html)=>{
+	if(typeof game.modules.get('MythicUI') !='undefined'){
+		if(game.modules.get('MythicUI').active){
+			html.addClass('mythicUI-fix')
+		}
+	}
+})
