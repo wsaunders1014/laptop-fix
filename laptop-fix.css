@@ -10,7 +10,7 @@
 .sheet {
     max-height: calc(100vh - 7px);
 }
-.sheet form {
+sheet form {
     max-height: 100%;
     overflow: hidden;
     overflow-y: auto;
@@ -31,7 +31,7 @@ section.filepicker-body {
 	max-height: initial;
 }
 
-.window-app .window-content > * {
+.scene-sheet.window-app .window-content > * {
     flex: initial;
 }
 .journal-sheet.window-app .window-content > * {
