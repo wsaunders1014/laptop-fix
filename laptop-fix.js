@@ -27,4 +27,10 @@ Hooks.on('renderModuleManagement', (object,html)=>{
 			html.addClass('mythicUI-fix')
 		}
 	}
+	if(typeof game.modules.get('find-the-culprit') !='undefined'){
+		if(game.modules.get('find-the-culprit').active){
+			html.addClass('culprit-fix')
+		}
+	}
+	
 })
