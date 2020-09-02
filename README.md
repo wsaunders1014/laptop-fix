@@ -1,6 +1,6 @@
 # laptop-fix
 
-#0.0.6
+# 0.0.6
 Fixed macro window issue. Fixed Show Artwork window being empty. Added some more conflict resolutions for mythicUI, The Furnace, TidyUI, and Find the Culprit
 
 # 0.0.5
