@@ -32,5 +32,9 @@ Hooks.on('renderModuleManagement', (object,html)=>{
 			html.addClass('culprit-fix')
 		}
 	}
-	
+	if(typeof game.modules.get('tidy-ui_game-settings') !='undefined'){
+		if(game.modules.get('tidy-ui_game-settings').active){
+			html.addClass('tidyUI-fix')
+		}
+	}
 })
