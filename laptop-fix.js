@@ -1,6 +1,16 @@
-Hooks.on('init',() => {;
+Hooks.on('init',() => {
 	console.log('Laptop Fix')
-	CONFIG.debug.hooks = true;
+	Game.prototype._displayUsabilityErrors = function() {
+	    // Unsupported Chromium version
+	    const MIN_CHROMIUM_VERSION = 80;
+	    const chromium = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
+	    if ( chromium && (parseInt(chromium[2]) < MIN_CHROMIUM_VERSION) ) {
+	      ui.notifications.error(game.i18n.format("ERROR.ChromiumVersion", {
+	        version: chromium[2],
+	        minimum: MIN_CHROMIUM_VERSION
+	      }), {permanent: true});
+	    }
+  	}
 })
 Hooks.on('renderSceneConfig',(object,html)=>{
 	//console.log(object,html);
