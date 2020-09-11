@@ -3,7 +3,7 @@
   "title": "Laptop Form Fix",
   "description": "Fixes issues where a few apps(SceneConfig and Filepicker) will put the submit button off screen. Restructured html/css so that the submit button is always visible.",
   "authors": [{"name":"Will Saunders","email":"willsaunders1014@gmail.com" }],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "minimumCoreVersion": "0.6.4",
   "compatibleCoreVersion":"0.6.6",
   "scripts": [
@@ -15,5 +15,5 @@
   "changelog":"https://raw.githubusercontent.com/wsaunders1014/laptop-fix/master/README.md",
   "url":"https://github.com/wsaunders1014/laptop-fix",
   "manifest":"https://raw.githubusercontent.com/wsaunders1014/laptop-fix/master/module.json",
-  "download":"https://github.com/wsaunders1014/laptop-fix/archive/0.0.7.zip"
+  "download":"https://github.com/wsaunders1014/laptop-fix/releases/download/0.0.8/laptop-fix.zip"
 }
