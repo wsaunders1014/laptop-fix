@@ -1,4 +1,8 @@
 # laptop-fix
+Reconfigures HTML and CSS so that save/submit buttons are always visible at the bottom of FormApplications for users who are on laptop.
+
+# 0.0.8
+Removed the debug.hooks code. Removed window size error message because it's annoying.
 
 # 0.0.7
 Fixed yet more issues with other modules. 
